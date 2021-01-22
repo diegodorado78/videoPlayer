@@ -1,8 +1,10 @@
+@import "./Vars.scss";
+@import "./components/Media.scss";
 body{
     color: white;
-    font-family: 'Muli', sans-serif;
+    font-family: $theme-font;
     margin:0;
-    background-color: #33353E;
+    background-color: $main-color;
 }
   
   * {
