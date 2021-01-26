@@ -23,7 +23,7 @@ const App = () => {// al usar llaves puedo usar el return (explicito)
                     <Carousel>
                     {
                         initialState.mylist.map(item =>
-                            < CarouselItem key={item.id} {...item}/> 
+                            < CarouselItem key={item.id} {...item}/> //spread para toda la info del objeto
                         )}
                 </Carousel>
                 </Categories>
